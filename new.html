@@ -4,33 +4,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Class&Object</title>
+    <title>Clss&Object</title>
 </head>
 
 <body>
     <script>
+        class School {
+            constructor(Principle, Pta, Teacher) {
+                this.Principle = Principle;
+                this.Pta = Pta;
+                this.Teacher = Teacher;
+            }
+            getFeatures(lab, library, ground) {
+                return console.log("Totlal Equpments for lab:" + lab, "\n" + "Total librery Books:" + library + "\n" + "Total Ground: " + ground)
+            }
+            getBad(Realpy) {
+                return console.log("Very bad toilate ,Review for Totilate in Bad " + Realpy)
+            }
 
+        }
+        Ghss = new School("Jocab", "Suliman", "Hakeem");
 
-        
+        console.log(Ghss.Pta)
+        Ghss.getFeatures(10, 55, 20)
 
-
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        
-        
+        Ghss.getBad(100)
 
     </script>
 </body>

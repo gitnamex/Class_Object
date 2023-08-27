@@ -1,17 +1,12 @@
-class Users{
-    constructor(name,age,place){
-        this.name=name;
-        this.age=age;
-        this.place=place;
+let Employee={
+    name:'john',
+    position:'Accountancy',
+    salary:50000,
+    getsalary:()=>{
+        console.log(" The employee "+this.name+ " Salary from "+this.salary)
     }
 }
 
-const john= new Users("John",19,"Karnadaka")
-console.log(john.age)
-
-const Sammy=new Users("Smith",10,'Us');
-console.log(Sammy)
 
 
-
-
+document.write(Employee.name)
